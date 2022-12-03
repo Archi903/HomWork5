@@ -3,6 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
     }
 
     public static void task1() {
@@ -56,6 +57,18 @@ public class Main {
 
 
             }
+        }
+    }
+    public static void task4() {
+        System.out.println("Задание 4");
+
+        int deliveryDistance = 70;
+        if (deliveryDistance <= 19) {
+            System.out.println("Потребуется дней: 1");}
+        if (deliveryDistance <= 59 && deliveryDistance > 19) {
+            System.out.println("Потребуется дней: 2");
+        } else if (deliveryDistance <= 100 && deliveryDistance > 59){
+            System.out.println("Потребуется дней: 3");
         }
     }
 }
